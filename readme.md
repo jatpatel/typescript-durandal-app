@@ -1,16 +1,21 @@
-This is a Demo Application for Typescript, Knockout & Durandal 
+# Typescript & Durandal Demo application
 
-You must have node, npm, bower installed to run this Application.
+This is a Demo Application powered by Typescript, Knockout, Durandal and gulp
+use npm, bower package managers and typings to load type definations
 
-Run instruction...
+### Installation
+Application requires [Node.js](https://nodejs.org/) v5+ to run.
 
-1) fetch node_modules
-   npm install 
-
-2) fetch bower_components 
-  bower install
-
-3) run the gulp task
-   gulp serve 
-
-
+Download and extract the application 
+Install the dependencies and devDependencies and start the server.
+```sh
+$ cd typescript-durandal-app
+$ npm install bower -g
+$ npm install 
+$ bower install
+```
+To serve gulp from .dev, which has all non-minified files, as this is demo only application
+``` sh
+$ cd assets
+$ gulp serve
+```
