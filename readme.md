@@ -12,7 +12,6 @@ Install the dependencies and devDependencies and start the server.
 $ cd typescript-durandal-app
 $ npm install bower -g
 $ npm install 
-$ bower install
 ```
 To serve gulp from .dev, which has all non-minified files, as this is demo only application
 ``` sh
