@@ -1,0 +1,48 @@
+@import "common";
+
+/* dashboard page */
+.dashboard-container {
+    position: relative;
+
+    @tile-width: 150px;
+
+    .tile {
+        position: relative;
+        display: inline-block;
+        width: @tile-width;
+        height: @tile-width;
+        background-color: @tile-background;
+
+        padding: 16px;
+        margin: 0 8px;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: @tile-background-hover;
+        }
+
+        .title {
+             h3 {
+                margin: 0px;
+                max-width: @tile-width;
+                .text-overflow();
+             }
+        }
+
+        .content {
+            h5 {
+             position: relative;
+             padding-bottom: 10px;
+             margin-bottom: 0px;
+            }
+
+        }
+
+
+
+    }
+
+
+
+}

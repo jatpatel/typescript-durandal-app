@@ -1,0 +1,55 @@
+@import 'common';
+
+
+/* shared variables*/
+@header-height: 100px;
+@footer-height: 60px;
+
+body {
+    background-color: @pure-white;
+}
+
+/* application host */
+#applicationHost {
+
+    .header {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: @header-height;
+        background-color: @header-footer-background; 
+        color: @pure-white;
+
+        h1 {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .shell {
+        position: relative;
+
+        .container {
+            position: relative;
+            top: @header-height + 30;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            }
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: @footer-height;
+        background-color: @header-footer-background;
+
+        p {
+            display: block;
+            line-height: 22px;
+            padding: 20px 0;
+            color: @pure-white;
+        }
+    }
+
+}

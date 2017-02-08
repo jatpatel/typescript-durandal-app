@@ -1,0 +1,27 @@
+{
+  "name": "assets",
+  "description": "typescript durandal app app",
+  "main": "",
+  "authors": [
+    "jatin patel"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "underscore": "^1.8.3",
+    "Durandal": "durandal#^2.2.0",
+    "durandal-almond": "^0.2.0",
+    "json2": "*",
+    "knockout": "~3.4.0",
+    "knockout-mapping": "^2.4.1",
+    "q": "1.4.1"
+  }
+}

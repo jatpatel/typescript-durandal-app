@@ -1,0 +1,40 @@
+[
+    {
+        "store_id": 1,
+        "store": "EE-Bay",
+        "data": [{
+            "category": "electronics",
+            "amount": 1500,
+            "progress": 20 
+        },  
+        {
+            "category": "basket size",
+            "amount": 200,
+            "progress": 30 
+        },
+        {
+            "category": "beverages",
+            "amount": 450,
+            "progress": 40 
+        }] 
+    },
+    {
+        "store_id": 2,
+        "store": "IamZon",
+        "data":  [{
+            "category": "electronics",
+            "amount": 1500,
+            "progress": 20
+        }, 
+        {
+            "category": "basket size",
+            "amount": 300,
+            "progress": 40
+        }, 
+        {
+            "category": "beverages",
+            "amount": 330,
+            "progress": 20
+        }]
+    }
+]

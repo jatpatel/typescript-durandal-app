@@ -1,0 +1,15 @@
+{
+  "name": "demo-app",
+  "dependencies": {
+    "gulp-typescript": "registry:dt/gulp-typescript#0.0.0+20160720002434"
+  },
+  "globalDependencies": {
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160726204056",
+    "durandal": "registry:dt/durandal#2.1.0+20161128184045",
+    "jquery": "registry:dt/jquery#1.10.0+20170123093700",
+    "knockout": "registry:dt/knockout#3.4.0+20170105101147",
+    "knockout.validation": "registry:dt/knockout.validation#0.0.0+20160725212620",
+    "underscore": "registry:dt/underscore#1.8.3+20161123125004",
+    "vinyl": "registry:dt/vinyl#1.2.0+20160924121322"
+  }
+}

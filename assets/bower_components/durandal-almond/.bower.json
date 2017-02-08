@@ -1,0 +1,15 @@
+{
+  "name": "durandal-almond",
+  "homepage": "https://github.com/BlueSpire/almond",
+  "version": "0.2.0",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0",
+    "commit": "e887261362cbc9e04d79294b0c4f5bc782bffc20"
+  },
+  "_source": "https://github.com/BlueSpire/almond.git",
+  "_target": "^0.2.0",
+  "_originalSource": "durandal-almond",
+  "_direct": true
+}

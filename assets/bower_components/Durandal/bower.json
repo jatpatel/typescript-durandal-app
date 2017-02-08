@@ -1,0 +1,10 @@
+{
+    "name": "Durandal",
+    "version": "2.2.0",
+    "dependencies": {
+      "jquery": "^1.9.1",
+      "knockout": "^3.4.0",
+      "requirejs": "^2.1.11",
+      "requirejs-text": "^2.0.12"
+    }
+}
