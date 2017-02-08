@@ -1,0 +1,7 @@
+
+# Logs and databases #
+*.log
+
+# Build Systems and packages#
+assets/node_modules
+assets/.dev
